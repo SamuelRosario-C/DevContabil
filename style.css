@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    font-size: 1rem;
+}
+
+/* ============== Container 1 Inicio ============= */
+.container {
+    display: block;
+    background-image: url(./assets/fundo.svg);
+    height: 125vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+
+}
+
+.header-top {
+    position: absolute;
+    left: 30px;
+    top: 38px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    display: flex;
+
+}
+
+.header-top p {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    margin-right: 20vh;
+
+}
+
+.header-top a {
+    text-decoration: none;
+    color: #FFFFFF;
+    margin-right: 21px;
+    transform: scale(0.9);
+    transition: 0.3s;
+}
+
+.header-top a:hover{
+    transform: scale(1);
+}
+
+h1 {
+    position: absolute;
+    top: 480px;
+    left: 49px;
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 80px;
+    color: #FFFFFF;
+}
+
+.contactUs {
+    position: absolute;
+    left: 65%;
+    top: 22%;
+    width: 31%;
+    height: 73%;
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 4vh 40px 40px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contactUs h2 {
+    color: #252B42;
+    text-align: center;
+    padding-bottom: 4vh;
+}
+
+.contactUsInfo {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 24px;
+    margin-top: 20px;
+
+}
+
+
+.contactUsInfo input {
+    background: #F9F9F9;
+    border: 1px solid #E6E6E6;
+    border-radius: 5px;
+    width: 24vw;
+    height: 8vh;
+    padding-left: 21px;
+}
+
+.contactUsInfo textarea {
+    background: #F9F9F9;
+    border: 1px solid #E6E6E6;
+    border-radius: 5px;
+    width: 24vw;
+    height: 19vh;
+    padding: 10px 0 0 23px;
+    resize: none;
+}
+
+.enviar {
+    background: #40BB15;
+    width: 24vw;
+    height: 10vh;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin-top: 12%;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+
+}
+
+.enviar:hover{
+    background: #49d118;
+    color: #FFFFFF;
+}
+
+.enviar:active{
+    background: #3ba514;
+    color: #d1d1d1;
+}
+
+@media (max-width: 983px) {
+    .contactUs {
+        position: absolute;
+        left: 60%;
+        top: 24%;
+        width: 300px;
+    }
+
+    .contactUsInfo input {
+        width: 224px;
+        height: 40px;
+        padding-left: 21px;
+    }
+
+    .contactUsInfo textarea {
+        width: 224px;
+    }
+
+    .enviar {
+        width: 224px;
+    }
+
+}
+
+@media (max-width: 780px) {
+    .contactUs {
+        position: absolute;
+        left: 30%;
+        top: 24%;
+        width: 300px;
+    }
+
+    h1 {
+        position: absolute;
+        top: 10%;
+        left: 23%;
+        font-weight: 800;
+        font-size: 58px;
+        line-height: 80px;
+        color: #FFFFFF;
+    }
+}
+
+/* ============== Container 1 Final ============= */
+
+/* ============== Container 2 Inicio ============= */
+
+.container2 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 33px;
+    flex-wrap: wrap;
+
+}
+
+nav h2 {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 57px;
+    color: #252B42;
+    margin: 71px 0 89px 0;
+    text-align: center;
+}
+
+.services {
+    background: #EEF6FF;
+    border-radius: 11px;
+    border: 1px solid #A9D6FF;
+    width: 300px;
+    height: 250px;
+
+}
+
+.services p {
+    background: #219653;
+    width: 299px;
+    height: 84px;
+    border-radius: 11px 11px 0 0;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding: 30px;
+}
+
+.list {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #737373;
+    padding: 30px;
+}
+
+/* ============== Container 2 Final ============= */
+
+/* ============== Container 3 Inicio ============= */
+.container3 {
+    background-color: #1E2844;
+    margin-top: 171px;
+    padding: 19px 137px 58px 136px;
+}
+
+.container3 h2 {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 57px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 42px;
+
+}
+
+.info {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+/* ============== Container 3 Final ============= */
